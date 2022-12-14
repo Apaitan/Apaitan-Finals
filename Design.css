@@ -1,0 +1,288 @@
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', fantasy;
+  box-sizing: border-box;
+}
+.container
+{
+  width: 100%;
+  height: 100vh;
+  background: #808080;
+  position: relative;
+  overflow: hidden;
+}
+.Menu
+{
+  width: 70px;
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  cursor: pointer;
+}
+.Mystery
+{
+  width: 70%;
+  background: #008080;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  padding: 50px 100px;
+  transition: top 1s;
+}
+.right-links
+{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+}
+.right-links a
+{
+  text-decoration: none;
+  color: #fff;
+  background: #f92537;
+  padding: 15px 40px;
+  border-radius: 30px;
+  cursor: crosshair;
+}
+.menu-links a
+{
+  text-decoration: underline;
+  color: #fff;
+  display: block;
+  width: fit-content;
+  margin: 30px 0;
+  font-size: 30px;
+}
+.menu-links a::after
+{
+  content: '';
+  width: 40px;
+  height: 5px;
+  background: #f92537;
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.menu-links a:hover
+{
+  font-weight: 700;
+}
+.menu-links a:hover::after
+{
+  display: inline-block;
+}
+.GA img
+{
+  width: 20%;
+  height: 70%;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  transform: rotate(-10deg);
+}
+.Window img
+{
+  width: 25%;
+  height: 70%;
+  position: absolute;
+  top: 50px;
+  right: 175px;
+  transform: rotate(10deg);
+}
+.Halloween img
+{
+  width: 25%;
+  height: 70%;
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+.BG
+{
+  width: 100%;
+  height: 100vh;
+  background: #808080;
+  position: relative;
+  overflow: hidden;
+}
+.VidDc
+{
+  width: 45%;
+  background: #008080;
+  position: relative;
+  top: 15%;
+  left: 2.5%;
+  padding: 50px 100px;
+  transition: top 1s;
+}
+.MapBG
+{
+  width: 100%;
+  height: 100vh;
+  background: #808080;
+  position: relative;
+  overflow: hidden;
+}
+.Icon img
+{
+  border-radius: 50%;
+  position: absolute;
+  height: 25%;
+  top: 75px;
+  left: 650px;
+}
+.Google-Map
+{
+  text-decoration: underline;
+  color: #fff;
+  background: #f92537;
+  padding: 15px 40px;
+  border-radius: 30px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+.Google-Map img
+{
+  background: #f92537;
+  padding: 15px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  height: 150px;
+  top: 50px;
+  left: -100px;
+}
+.FB
+{
+  text-decoration: underline;
+  color: #fff;
+  background: #f92537;
+  padding: 15px 40px;
+  border-radius: 30px;
+  position: absolute;
+  top: 300px;
+  right: 400px;
+}
+.FB img
+{
+  background: #f92537;
+  padding: 15px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  height: 150px;
+  top: 50px;
+  left: 10px;
+}
+.Insta img
+{
+  background: #f92537;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  height: 50px;
+  bottom: 50px;
+  left: 50px;
+}
+.Insta p
+{
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 48px;
+  left: 105px;
+}
+.Insta a
+{
+  text-decoration: underline;
+  color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 65px;
+  left: 250px;
+}
+.Phone img
+{
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  height: 50px;
+  bottom: 50px;
+  right: 400px;
+}
+.Phone p
+{
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 45px;
+  right: 220px;
+}
+.Icon2 img
+{
+  border-radius: 50%;
+  position: absolute;
+  height: 70%;
+  top: 75px;
+  right: 50px;
+}
+.Category h1
+{
+  text-decoration: underline;
+  position: absolute;
+  color: #fff;
+  margin: 10px 30px;
+  font-size: 20px;
+}
+.Category p
+{
+  text-decoration: underline;
+  position: relative;
+  color: #fff;
+  margin: 50px 30px;
+  font-size: 25px;
+  left: 300px;
+}
+.Gallery img
+{
+  background: #666699;
+  padding: 15px 15px;
+  border-radius: 30px;
+  margin: 100px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  cursor: pointer;
+  position: static;
+  height: 175px;
+  top: 50px;
+  left: 10px;
+}
+.Gallery2 img
+{
+  background: #666699;
+  padding: 15px 15px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin: 100px;
+  cursor: pointer;
+  position: static;
+  height: 175px;
+  top: 50px;
+  left: 10px;
+}
+.Header h2
+{
+  left: 50%;
+  text-decoration: underline;
+  padding: 15px 15px;
+  background-color: #887700;
+  color: #fff;
+  font-size: 30px;
+}
